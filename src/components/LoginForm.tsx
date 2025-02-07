@@ -20,8 +20,8 @@ const LoginForm = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    const adminEmail = process.env.NEXT_PUBLIC_ADMIN_EMAIL;
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
+    const adminEmail = "areebayaseen15@gmail.com";
+    const adminPassword = "1122334455";
 
     if (email === adminEmail && password === adminPassword) {
       setMessage("Login successful ✅");
